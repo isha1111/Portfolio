@@ -87,7 +87,9 @@ video#bgvid {
   background-color:black;
   color:white;
 }
-
+.download-section a{
+  color: black;
+}
 #contact a {
   color: black;
   border: 1px solid black;
