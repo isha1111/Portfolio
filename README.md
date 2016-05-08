@@ -1,5 +1,5 @@
-Portfolio Website
+###Portfolio Website
 
-Owner - Isha Nagpal
+###Copyright - Isha Nagpal
 
-Fetaures - Information about myself and my projects.
+###
