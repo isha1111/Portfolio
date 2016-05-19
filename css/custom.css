@@ -12,7 +12,13 @@
   background-color: gray;
   border-radius: 2px solid gray;
 }
-
+.balloon {
+  float: left;
+  position: absolute;
+  height: 500px;
+  width: 700px;
+  vertical-align:
+}
 #about {
   background-image: url('../img/about.png');
 }
@@ -220,7 +226,7 @@ video#bgvid {
     display: none;
   }
   #about {
-    padding-top: 249px;
+    padding-top: 280px;
   }
   .download-section .col-sm-2 {
     width: 150px!important;
@@ -237,6 +243,6 @@ video#bgvid {
     animation: none;
     position: absolute;
     top:-35%;
-    right:36%;
+    right:38.5%;
   }
 }
