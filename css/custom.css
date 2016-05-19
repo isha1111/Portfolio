@@ -114,6 +114,14 @@ video#bgvid {
   transition: all .2s ease-in-out;
   cursor: pointer;
 }
+.balloon {
+  float: left;
+  margin-top: 40px;
+  margin-right: 50px;
+  animation: hang 3s 0s infinite alternate;
+  transition: all .2s ease-in-out;
+}
+}
 .phoneImg:hover {
   transform: scale(1.7);
 }
