@@ -116,19 +116,22 @@ video#bgvid {
   float: left;
   margin-top: 40px;
   margin-right: 50px;
-  animation: hang 3s 0s infinite alternate;
-  transition: all .2s ease-in-out;
+  -webkit-animation: bounce 15s cubic-bezier(0.51, 0, 0.46, 1) infinite;
+  animation: bounce 15s cubic-bezier(0.51, 0, 0.46, 1) infinite;
 }
 }
 .phoneImg:hover {
   transform: scale(1.7);
 }
-@-webkit-keyframes hang {
+@-webkit-keyframes bounce {
   0%  {
-    margin-top:40px;
+    margin-top:10px;
+  }
+  50% {
+    margin-top: 120px;
   }
   100% {
-    margin-top:65px;
+    margin-top:10px;
   }
 }
 .intro .row {
