@@ -9,7 +9,7 @@
 }
 .page-scroll {
   font-weight: bolder;
-  background-color: gray;
+  background-color: white;
   border-radius: 2px solid gray;
 }
 .balloon {
@@ -106,11 +106,17 @@ video#bgvid {
 #contact a:hover {
   color: white;
 }
-.phoneImg {
-  float: left;
-  margin-top: 40px;
-  margin-right: 50px;
-  cursor: pointer;
+.lang_img {
+  height: 4%;
+  width: 4%;
+  margin-top: 7%;
+  margin-right: 2%;
+}
+.lang_img1 {
+  height: 6%;
+  width: 6%;
+  margin-top: 7%;
+  margin-right: 2%;
 }
 .balloon {
   float: left;
