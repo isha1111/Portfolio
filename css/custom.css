@@ -254,11 +254,4 @@ video#bgvid {
     width: 80%;
     margin: 0 auto;
   }
-  .phoneImg {
-    animation: none;
-    position: absolute;
-    top:-35%;
-    right:38.5%;
-  }
-
 }
