@@ -17,7 +17,7 @@
   position: absolute;
   height: 500px;
   width: 700px;
-  vertical-align:
+  transform: translate(-7%,0);
 }
 #about {
   background-image: url('../img/about.png');
