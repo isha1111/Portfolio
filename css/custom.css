@@ -217,7 +217,7 @@ video#bgvid {
             transform: translateY(-30%);
   }
 }
-@media (max-width: 920px) {
+@media (max-width: 1000px) {
   .col-sm-2:hover .text {
     font-size: 15px;
   }
@@ -226,6 +226,9 @@ video#bgvid {
   }
   .text {
     right: 10%;
+  }
+  .balloon {
+    display: none;
   }
 }
 @media(max-width:768px) {
